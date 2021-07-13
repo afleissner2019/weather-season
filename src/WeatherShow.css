@@ -1,0 +1,45 @@
+.icon-left{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+
+.icon-right{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    
+}
+.weather-show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.weather-show.summer i {
+    color: orange;
+ 
+}
+
+.weather-show.winter i {
+    color: rgb(243, 243, 247);
+ 
+}
+.winter{
+    background-image: url(./images/winter1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.summer{
+    background-image: url(./images/summer.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
